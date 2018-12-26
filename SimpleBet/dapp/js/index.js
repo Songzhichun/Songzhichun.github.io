@@ -72,7 +72,7 @@ var showBetList = function () {
     showListContent(1);
 }
 
-```
+{% highlight javascript %}
 var showListContent = function (pageNo) {
     var methodId = 'de2fd8ab,83bd72ba,3cc4c6ce,9c16667c,340190ec';
     if (pageNo == null || pageNo == '' || pageNo == 'undefined' || pageNo <= 0) {
@@ -170,7 +170,7 @@ var appendChildList = function (contractAddress, id, lastCount) {
         }
     });
 }
-```
+{% endhighlight %}
 
 var checkChoice = function (inputValue) {
     var obj = document.getElementById("submit-div");
